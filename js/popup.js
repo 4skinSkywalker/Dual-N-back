@@ -8,8 +8,8 @@ function Popup(name, innerID) {
 Popup.prototype.show = function() {
   var outer = document.getElementById(this.outerID);
   outer.style.opacity = 1;
-  outer.style.height = 100 + "vh";
-  outer.style.width = 100 + "vw";
+  outer.style.height = 100 + "svh";
+  outer.style.width = 100 + "svw";
   var inner = document.getElementById(this.innerID);
   inner.style.display = "block";
   this.isOpen = true;

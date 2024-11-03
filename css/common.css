@@ -16,7 +16,7 @@ body {
   overflow: hidden;
   position: fixed;
   margin: 0;
-  height: 100vh;
+  height: 100svh;
   font-family: 'Roboto', sans-serif;
   background: white;
 }
@@ -101,8 +101,8 @@ button:focus {
 
 #site-wrap {
   overflow: hidden;
-  min-width: 100vw;
-  min-height: 100vh;
+  min-width: 100svw;
+  min-height: 100svh;
   background: #fffff0;
   position: relative;
   top: 0;
@@ -221,7 +221,7 @@ input[type=range].slider:focus::-webkit-slider-runnable-track {
 #chart {
   position: absolute;
   z-index: 30;
-  width: 100vw;
+  width: 100svw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -229,8 +229,8 @@ input[type=range].slider:focus::-webkit-slider-runnable-track {
 
 #chart {
   display: none;
-  height: 85vh;
-  width: 85vw;
+  height: 85svh;
+  width: 85svw;
 }
 
 .results-icons {

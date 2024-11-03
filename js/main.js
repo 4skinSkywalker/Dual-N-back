@@ -32,7 +32,7 @@ var enviroment = {
   makePopups: function() {
     this.resultsPopup = new Popup("enviroment.resultsPopup", "results");
     this.chartPopup = new Popup("enviroment.chartPopup", "chart");
-    this.progressBar = new Progress("enviroment.progressBar", "1vh", "rgba(0, 0, 0, 0.33)", "white");
+    this.progressBar = new Progress("enviroment.progressBar", "1svh", "rgba(0, 0, 0, 0.33)", "white");
     document.body.innerHTML += this.resultsPopup.getHTML() + this.chartPopup.getHTML();
     document.getElementById(this.resultsPopup.outerID).innerHTML += this.progressBar.getHTML();
   },
